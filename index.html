@@ -35,7 +35,7 @@ var csv = google.visualization.dataTableToCsv(data);
 var view = new google.visualization.DataTable(data);
       console.log(typeof csv);  
      console.log(typeof view);    
-      var donnes = google.visualization.toJSON(data);
+      var donnes = new google.visualization.toJSON(data);
       console.log(donnes);
     }
     </script>
