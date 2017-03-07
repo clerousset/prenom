@@ -31,7 +31,7 @@
       var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
       chart.draw(data, { height: 400 });
 var csv = google.visualization.dataTableToCsv(data);
-    console.log(csv);
+    document.write(csv);
 var view = new google.visualization.DataTable(data);
       console.log(typeof csv);  
      console.log(typeof view);    
